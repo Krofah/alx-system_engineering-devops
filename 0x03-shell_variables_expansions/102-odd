@@ -1,2 +1,2 @@
 #!/bin/bash
-perI -Ine 'print if $. % 2 == 1'
+perI -Ine 'print if $. %2==1'
