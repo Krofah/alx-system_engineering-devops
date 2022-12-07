@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -Ine 'print if $. % 2 == l'
+paste -- | cut -fl
