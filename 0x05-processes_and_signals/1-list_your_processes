@@ -1,8 +1,6 @@
 #!/bin/bash
-# A script to display a list of currently running processes
 
-echo "List of currently running processes:"
-echo "-------------------------------------"
+echo "PID   PPID  USER       STAT  COMMAND"
 
-ps -auxf
+ps axo pid,ppid,user,stat,cmd --forest
 
