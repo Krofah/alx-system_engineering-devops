@@ -1,5 +1,4 @@
-#!/bin/bash
-# A simple script to display its own PID
+#!/usr/bin/env bash
+# Displays its own PID.
 
-echo "The PID of this script is: $$"
-
+echo $$
