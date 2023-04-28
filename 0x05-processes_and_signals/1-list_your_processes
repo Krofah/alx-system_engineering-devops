@@ -1,0 +1,8 @@
+#!/bin/bash
+# A script to display a list of currently running processes
+
+echo "List of currently running processes:"
+echo "-------------------------------------"
+
+ps -auxf
+
